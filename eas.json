@@ -1,8 +1,21 @@
 {
+  "cli": {
+    "version": ">= 3.13.0"
+  },
   "build": {
     "production": {
-      "android": { "buildType": "app-bundle" }
+      "android": {
+        "buildType": "app-bundle"
+      }
+    },
+    "preview": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      }
     }
   },
-  "cli": { "version": ">= 3.13.0" }
+  "submit": {
+    "production": {}
+  }
 }
