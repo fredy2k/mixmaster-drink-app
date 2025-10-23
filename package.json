@@ -34,7 +34,8 @@
     "metro-transform-worker": "0.80.11",
     "metro-file-map": "0.80.11",
     "metro-babel-transformer": "0.80.11",
-    "metro-transform-plugins": "0.80.11"
+    "metro-transform-plugins": "0.80.11",
+    "@react-native/dev-middleware": "0.80.11"
   },
   "overrides": {
     "metro": "0.80.11",
@@ -49,7 +50,8 @@
     "metro-transform-worker": "0.80.11",
     "metro-file-map": "0.80.11",
     "metro-babel-transformer": "0.80.11",
-    "metro-transform-plugins": "0.80.11"
+    "metro-transform-plugins": "0.80.11",
+    "@react-native/dev-middleware": "0.80.11"
   },
   "engines": {
     "node": ">=20.0.0"
