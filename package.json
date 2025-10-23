@@ -21,6 +21,10 @@
   "devDependencies": {
     "@babel/core": "^7.24.0"
   },
+  "resolutions": {
+    "metro-core": "0.80.11",
+    "metro": "0.80.11"
+  },
   "engines": {
     "node": ">=20.0.0"
   },
