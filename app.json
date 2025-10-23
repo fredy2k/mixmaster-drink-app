@@ -2,28 +2,32 @@
   "expo": {
     "name": "MixMaster Drink App",
     "slug": "mixmaster-drink-app",
-    "owner": "frdrran",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000000"
     },
-    "userInterfaceStyle": "light",
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
     "android": {
       "package": "com.frdrran.mixmaster",
+      "versionCode": 2,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#000000"
       }
     },
-    "ios": { "supportsTablet": true },
-    "web": { "favicon": "./assets/favicon.png" },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
     "extra": {
       "eas": {
-        "projectId": "18f63c6b-b983-4e23-a47f-1fe5c0aa8ab7"
+        "projectId": "56dac02c-8bf6-4588-a355-6f596cd24ee5"
       }
     }
   }
