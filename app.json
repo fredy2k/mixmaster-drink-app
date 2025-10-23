@@ -1,30 +1,30 @@
 {
   "expo": {
-    "name": "great-working-app-mixmaster",
-    "slug": "snack-8c3ba3e6-9092-4a1f-a6f8-eb9c61794b32",
+    "name": "MixMaster Drink App",
+    "slug": "mixmaster-drink-app",
+    "owner": "frdrran",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "newArchEnabled": true,
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "ios": {
-      "supportsTablet": true
-    },
+    "userInterfaceStyle": "light",
     "android": {
+      "package": "com.frdrran.mixmaster",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      },
-      "edgeToEdgeEnabled": true,
-      "package": "com.fredy2k.mixmasterdrinkapp"
+      }
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "ios": { "supportsTablet": true },
+    "web": { "favicon": "./assets/favicon.png" },
+    "extra": {
+      "eas": {
+        "projectId": "18f63c6b-b983-4e23-a47f-1fe5c0aa8ab7"
+      }
     }
   }
 }
