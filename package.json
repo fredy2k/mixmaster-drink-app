@@ -16,11 +16,13 @@
     "@react-native-async-storage/async-storage": "1.21.0",
     "react": "18.2.0",
     "react-native": "0.75.1",
-    "react-native-web": "~0.19.10",
-    "metro": "0.80.11"
+    "react-native-web": "~0.19.10"
   },
   "devDependencies": {
     "@babel/core": "^7.24.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
   },
   "private": true
 }
