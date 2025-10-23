@@ -29,6 +29,8 @@
       "eas": {
         "projectId": "56dac02c-8bf6-4588-a355-6f596cd24ee5"
       }
-    }
+    },
+    "sdkVersion": "54.0.0",
+    "platforms": ["ios", "android"]
   }
 }
