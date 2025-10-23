@@ -1,25 +1,26 @@
 {
-  "cli": {
-    "version": ">= 3.13.0"
-  },
-  "build": {
-    "production": {
-      "android": {
-        "buildType": "app-bundle"
-      }
+  "expo": {
+    "name": "great-working-app-mixmaster",
+    "slug": "snack-8c3ba3e6-9092-4a1f-a6f8-eb9c61794b32",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./snack-icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./snack-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
     },
-    "development": {
-      "developmentClient": true,
-      "distribution": "internal"
+    "ios": { "supportsTablet": true },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./snack-icon.png",
+        "backgroundColor": "#000000"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.fredy2k.mixmasterdrinkapp"
     },
-    "preview": {
-      "distribution": "internal",
-      "android": {
-        "buildType": "apk"
-      }
-    }
-  },
-  "submit": {
-    "production": {}
+    "web": { "favicon": "./snack-icon.png" }
   }
 }
