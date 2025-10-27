@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "MixMaster Drink App",
+    "name": "MixMaster",
     "slug": "mixmaster-drink-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -9,9 +9,11 @@
     "splash": {
       "image": "./assets/mixmaster-logo.png",
       "resizeMode": "contain",
-      "backgroundColor": "#000000"
+      "backgroundColor": "#0a0f14"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.frdrran.mixmaster"
@@ -29,7 +31,7 @@
     },
     "extra": {
       "eas": {
-        "projectId": "8c3ba3e6-9092-4a1f-a6f8-eb9c61794b3b"
+        "projectId": "5d6ac02c-8bf6-4588-a355-6f596cd24ee5"
       },
       "donations": {
         "paypal": "https://paypal.me/randlesphotography",
@@ -38,6 +40,9 @@
       }
     },
     "sdkVersion": "54.0.0",
-    "platforms": ["ios", "android", "web"]
+    "platforms": [
+      "ios",
+      "android"
+    ]
   }
 }
