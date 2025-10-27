@@ -1,36 +1,44 @@
 {
   "expo": {
-    "name": "MixMaster Drink App",
-    "slug": "mixmaster-drink-app",
+    "name": "MixMaster",
+    "slug": "mixmaster",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/snack-icon.png",
+    "scheme": "mixmaster",
+    "userInterfaceStyle": "dark",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/mixmaster-logo.png",
       "resizeMode": "contain",
-      "backgroundColor": "#000000"
+      "backgroundColor": "#0a0f14"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.frdrran.mixmaster"
     },
     "android": {
-      "package": "com.frdrran.mixmaster",
-      "versionCode": 2,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/mixmaster-logo.png",
         "backgroundColor": "#000000"
-      }
+      },
+      "package": "com.frdrran.mixmaster",
+      "versionCode": 1
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/mixmaster-logo.png"
     },
     "extra": {
       "eas": {
-        "projectId": "56dac02c-8bf6-4588-a355-6f596cd24ee5"
+        "projectId": "8c3ba3e6-9092-4a1f-a1f8-eb9c61794b3b"
       }
     },
     "sdkVersion": "54.0.0",
-    "platforms": ["ios", "android"]
+    "platforms": [
+      "ios",
+      "android"
+    ]
   }
 }
